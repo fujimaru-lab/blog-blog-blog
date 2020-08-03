@@ -1,0 +1,9 @@
+@startsalt MainPage
+{+
+{/ Home | About Me | Archive | Links}
+{ $Blog Title}
+{ $Blog Image}
+    {$Article Title}
+    {$Article Body}
+}
+@endsalt
