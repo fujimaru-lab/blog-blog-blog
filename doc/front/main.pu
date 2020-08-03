@@ -1,6 +1,6 @@
 @startsalt MainPage
 {+
-{/ Home | About Me | Archive | Links}
+{/ Home | About Me | Archive | Images | Links}
 { $Blog Title}
 { $Blog Image}
     {$Article Title}
