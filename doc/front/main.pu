@@ -1,9 +1,17 @@
 @startsalt MainPage
 {+
-{/ Home | About Me | Archive | Images | Links}
-{ $Blog Title}
-{ $Blog Image}
-    {$Article Title}
-    {$Article Body}
+{/ [Home] | [About Me] | [Archive] | [Images]}
+{+ <b>BLOG TITLE }
+{
+[article1 summary] | {+ about me}
+{} | {+ image}
+{} | [Search] | "some word    "
+[article2 summary] | archive
+[article3 summary] | tag cloud
+{}         | calendar
+}
+{^"footer"
+ [links] | [hoge] | [piyo]
+}
 }
 @endsalt
