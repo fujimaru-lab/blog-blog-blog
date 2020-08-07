@@ -1,6 +1,6 @@
 @startsalt MainPage
 {+
-{/ [Home] | [About Me] | [Archive] | [Images]}
+{/ [Home] | [About Me] | [Archive] | [Images] | [Edit]}
 {+ <b>BLOG TITLE }
 {
 [article1 summary] | {+ about me}
